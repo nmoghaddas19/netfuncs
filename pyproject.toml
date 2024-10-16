@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "netfuncs"
+version = '0.1'
+description = 'A library of helper functions for network analysis'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Nima Moghaddas", email = "n.r.moghaddas@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[dependencies]
+networkx = "^3.0"
+graph-tool = "*"
+
+[project.urls]
+Documentation = "https://github.com/Nima Moghaddas/netfuncs#readme"
+Issues = "https://github.com/Nima Moghaddas/netfuncs/issues"
+Source = "https://github.com/Nima Moghaddas/netfuncs"
+
+
